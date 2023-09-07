@@ -6,6 +6,8 @@ import webbrowser  # Import the webbrowser module
 
 app = dash.Dash(__name__)
 
+server=app.server
+
 # Define the list of Indian states and their corresponding URLs
 state_urls = {
     'Andhra Pradesh': 'https://example.com/andhra_pradesh',
