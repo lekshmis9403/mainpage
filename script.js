@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
         'Assam': 'https://example.com/assam',
         'Bihar': 'https://example.com/bihar',
         'Chhattisgarh': 'https://example.com/chhattisgarh',
-        'Goa': 'https://goadashboard-ynh8.onrender.com/',  
+        'Goa': 'https://goadashboard-2c4s.onrender.com/',  
         'Gujarat': 'https://example.com/gujarat',
         'Haryana': 'https://example.com/haryana',
         'Himachal Pradesh': 'https://example.com/himachal_pradesh',
