@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Meteorological Department</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="imd finish logo.png" alt="IMD Logo">
+        <div class="title">
+            <h2>INDIA METEOROLOGICAL DEPARTMENT</h2>
+            <p class="government">Government of India</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h1 class="rainfall-title">Rainfall Data Visualization</h1>
+        
+        <div class="navbar">
+            <select id="location-dropdown" class="location-dropdown">
+                
+                <option value="ut">select</option>
+                <option value="states">States</option>
+                <option value="ut">Union Territories</option>
+                
+            </select>
+            <select id="state-ut-dropdown" class="state-ut-dropdown">
+                <option value="">Select a State or Union Territory</option>
+            </select>
+            <button id="redirect-button" class="go-button">Go</button>
+        </div>
+        
+        <div class="about">
+            <div class="about-description">
+                <h2 class="about-title">ABOUT</h2>
+                <p>Rainfall Dashboard provides valuable insights into historical rainfall patterns and trends in States of India. This interactive dashboard is a comprehensive tool for both meteorologists and the general public to explore and analyze rainfall data. It offers a visual representation of total rainfall per year, complete with a trendline and regression analysis to identify long-term trends. Users can select specific districts, stations, or date ranges to customize their analysis, making it a valuable resource for researchers, policymakers, and anyone interested in understanding the region's rainfall patterns.</p>
+            </div>
+            <div class="about-image">
+                <img src="dashboard_img.png" alt="Dashboard Image">
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-item">
+                <p>Created by</p>
+                <p>Supriya Biradar</p>
+                <p>Shreya Shaha</p>
+            </div>
+            <div class="footer-item">
+                <p>Under the guidance of</p>
+                <p>Dr. Rajib Chattopadhyay</p>
+                <p>Lekshmi S</p>
+            </div>
+            <div class="footer-item">
+                <p>Managed by</p>
+                <p>Climate Applications and User Interface Group</p>
+                <p>CRS IMD, Pune</p>
+            </div>
+            <div class="footer-item follow-us">
+                <p>Follow us on social media:</p>
+                <a href="https://www.facebook.com/IMDPune/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png" alt="Facebook"></a>
+                <a href="https://twitter.com/climateimd"><img src="https://cdn-icons-png.flaticon.com/512/3670/3670151.png" alt="Twitter"></a>
+                <a href="https://www.youtube.com/channel/UCgBa7vNdcw4q_mjW3TPOfmA/videos"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1024px-YouTube_full-color_icon_%282017%29.svg.png" alt="YouTube"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
