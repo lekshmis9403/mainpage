@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Define the URLs for states and union territories
     var stateUrls = {
         'Andhra Pradesh': 'https://example.com/andhra_pradesh',
-        'Arunachal Pradesh': 'https://example.com/arunachal_pradesh',
+        'Arunachal Pradesh': 'https://arunachalpradeshdashboard.onrender.com',
         'Assam': 'https://example.com/assam',
         'Bihar': 'https://example.com/bihar',
         'Chhattisgarh': 'https://example.com/chhattisgarh',
